@@ -1,0 +1,33 @@
+
+h1{
+	color: rgb(20, 73, 20);
+}
+.menu__item,
+.menu__link {
+	color: red;
+}
+.menu__under_list {
+	color: blue;
+}
+[class*="xt"] {
+	color: maroon;
+}
+.characteristic__text p {
+	color: rgb(0, 255, 0);
+}
+
+.geography__content .geography__titel {
+	color: #09daff;
+}
+
+
+.historical * {
+	color: #ff0073;
+}
+.population__text > p {
+	color: #00ff88;
+}
+
+#copyright{
+	color: #0077ff;
+}
