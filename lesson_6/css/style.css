@@ -20,7 +20,7 @@ body {
 }
 
 .checkout__conten {
-	background-image: url(/img/Rectangle\ 1.png);
+	background: url(/img/Rectangle\ 1.png);
 	height: 100%;
 	width: 100%;
 	padding-bottom: 92px;
@@ -61,7 +61,7 @@ body {
 
 .designer__conten {
 	text-align: center;
-	background-image: url(/img/bg2.jpg) ;
+	background: url(/img/bg2.jpg) ;
 	position: relative;
 	padding: 100px 0;
 }
