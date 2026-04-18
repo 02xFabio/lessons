@@ -1,0 +1,172 @@
+@import url(./fonts.css);
+body {
+	font-family: "Poppins";
+	font-size: 16px;
+	color: #000000;
+}
+.page__checkout {}
+
+.checkout {}
+
+._conteiner{
+		max-width: 1333px;
+		margin: 0px auto;
+		padding: 0px 15px;
+}
+.checkout__conteiner {
+	max-width: 1333px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+.checkout__conten {
+	background-image: url(/img/Rectangle\ 1.png);
+	height: 100%;
+	width: 100%;
+	padding-bottom: 92px;
+}
+
+.checkout__icon {
+	text-align: center;
+}
+
+.checkout__titel {
+	font-size: 48px;
+	font-weight: 500;
+	margin-bottom: 22px;
+	text-align: center;
+}
+
+.checkout__nav {
+		text-align: center;
+		
+}
+.checkout__nav span {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 500;
+}
+.checkout__nav img {
+	margin: 0px 5px;
+}
+/* ?==================================================================================================================================================================================================================================================================================================================================================================================================== */
+.page__designer {}
+
+.designer {
+	margin-top: 90px;
+	margin-bottom: 32px;
+}
+
+.designer__conteiner {}
+
+.designer__conten {
+	text-align: center;
+	background-image: url(/img/bg2.jpg) ;
+	position: relative;
+	padding: 100px 0;
+}
+.designer__conten::after{
+	content: '';
+	position: absolute;
+	z-index: 2;
+	background-color: #000000;
+	opacity: 0.7;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.designer__titel {
+	font-size: 64px;
+	font-family: 'Barlow';
+	color: #fff;
+	font-weight: 800;
+	line-height: 150%; /* 96/64 */
+	text-transform: uppercase;
+	z-index: 3;
+	position: relative;
+	margin-bottom: 17px;
+}
+
+.designer__buttom {
+	z-index: 3;
+	position: relative;
+	color: #fff;
+	background-color: #0A84FF;
+	padding: 18px 80px;
+	border-radius: 12px;
+	line-height: 150%; /* 24/16 */
+	font-weight: 500;
+	font-family: 'Roboto Flex';
+}
+/* ?==================================================================================================================================================================================================================================================================================================================================================================================================== */
+.page__about {}
+._titel{
+	color: #F9EFEC;
+		font-size: 24px;
+		line-height: 150%;
+		/* 36/24 */
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-bottom: 12px;
+}
+.about {
+	font-family: "Barlow";
+}
+
+.about__conten {
+	border-radius: 10px;
+	background-color: #1A1A1A;
+	max-width: 750px;
+	margin: 0px auto;
+	padding: 32px 50px 32px 32px;
+}
+.position__body{
+	
+}
+.position__titel {
+	
+}
+
+.position__text {
+	color: #B3B3B2;
+	line-height: 150%; /* 24/16 */
+	
+}
+
+.responsibilities__titel {
+
+}
+
+.responsibilities__list {
+	color: #B3B3B2;
+	line-height: 150%;
+}
+.responsibilities__list li {
+	background: url(/img/01.svg) 0 4px no-repeat;
+		padding-left: 26px;
+		min-height: 24px;
+		margin-bottom: 15px;
+}
+
+.requirements__titel {}
+
+.requirements__list {
+	color: #B3B3B2;
+		line-height: 150%;
+		/* 24/16 */
+}
+.requirements__list li {
+	background: url(/img/01.svg) 0 4px no-repeat;
+		padding-left: 26px;
+		min-height: 24px;
+		margin-bottom: 15px;
+}
+.benefits__titel {}
+
+.benefits__text {
+	color: #B3B3B2;
+		line-height: 150%;
+		/* 24/16 */
+}
