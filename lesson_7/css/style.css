@@ -1,0 +1,53 @@
+@import url(./fonts.css);
+body {
+	font-family: "DM+Sans";
+	font-size: 16px;
+	color: #000000;
+}
+.grow__conteiner{
+	max-width: 430px;
+	margin: 0 auto;
+}
+.content {
+	padding-top: 50px;
+}
+
+.title {
+	font-size: 50px;
+	margin-bottom: 20px;
+	font-weight: 600;
+
+}
+.title::before{
+	content: '';
+	width: 169px;
+	height: 4px;
+	background: linear-gradient(90.00deg, rgba(18.3, 255, 70.38, 1), rgba(0, 0, 0, 1) 94.964%);;
+	display: block;
+	margin-bottom: 17px;
+}
+.title span {
+	color: #00A86B;
+}
+.text {
+	font-size: 20px;
+	line-height: 140%; /* 28/20 */
+	opacity: 60%;
+	margin-bottom: 58px;
+}	
+
+.button {
+	color: #fff;
+	background: #1AAF5B;
+	border-radius: 0px 10px 0px 0px;
+	padding: 20px 40px;
+	font-weight: 600;
+	
+}
+.button::after{
+	content: '';
+	height: 10px;
+	width: 20px;
+	background: url(/img/Path.svg)  ;
+	display: inline-block;
+}
