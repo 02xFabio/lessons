@@ -1,0 +1,60 @@
+@import url(./fonts.css);
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #5c5454;
+	text-align: center;
+}
+.header__logo {
+	padding-top: 50px;
+}
+.header__logo span {
+	font-size: 20px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-left: 10px;
+	display: inline-block;
+}
+.icons {}
+
+.icon__img {
+	
+}
+.icon__img span{
+	padding-top: 10px;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 20px;
+}
+.icon__img img{
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.icon__link{
+	padding-bottom: 25px;
+	font-size: 20px;
+}
+.icon__link a {
+	color: #ffffff;
+}
+.icon__list{
+	margin-top: 25px;
+}
+.icon__list li:nth-child(1)::before {
+	content: '';
+	padding-right: 40px;
+	background: url(/img/icons/03.svg) 0 50% no-repeat;
+}
+.icon__list li:nth-child(2)::before {
+	content: '';
+	padding-right: 40px;
+	background: url(/img/icons/04.svg) 0 50% no-repeat;
+}
+/* ?========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================== */
+
+.titel{
+	font-size: 24px;
+	font-weight: 700;
+}

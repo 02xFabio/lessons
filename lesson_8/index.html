@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lesson 8</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nullstyle.css">
+</head>
+<body>
+	<div class="header__logo">
+		<img src="img/logo.webp" alt="Logo"> 
+		<span>Контенте зображення, растрове з PNG в WEBP</span>
+	</div>
+	<div class="icons">
+		<div class="icon__img">
+			<a href="#"><img src="img/icons/01.svg" alt="icon"></a>
+			<span>Іконка,вектор,svg</span>
+		</div>
+		<div class="icon__img">
+			<a href="#"><img src="img/icons/02.svg" alt="icon"></a>
+			<span>Іконка,вектор,svg</span>
+			</div>
+		<ul class="icon__list">
+			<li class="icon__link"><a href="#">Іконка,вектор,svg,::before</a></li>
+			<li class="icon__link"><a href="#">Іконка,вектор,svg,::before</a></li>
+		</ul>
+	</div>
+	<div class="image__avif">
+		<h1 class="titel">Контентне зображення, растрове з JPEG в AVIF</h1>
+		<img src="img/bg.avif" alt="Сіра кімната з стільцем,тумбочкою та вазонком з квітами">
+	</div>
+	<div class="image__webp">
+		<h1 class="titel">Контентні зображення, растрові з JPEG в WEBp</h1>
+		<img src="img/rooms/01.webp" alt="Столик з тарілкою">
+		<img src="img/rooms/02.webp" alt="Диван з столом та подушками">
+		<img src="img/rooms/03.webp" alt="ліжко ,ваза та подушка">
+	</div>
+	<div class="image__content">
+		<h1 class="titel">Контентне зображення, растрове з JPEG в AVIF з оптимізацією та розширеною якістю 2Х та 3Х</h1>
+		<picture>
+			<source srcset="img/content.avif 1x, img/content-2x.avif 2x, img/content-3x.avif 3x">
+			<img src="img/content.avif" alt="Диван">
+		</picture>
+	</div>
+</body>
+</html>
