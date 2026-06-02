@@ -1,0 +1,303 @@
+@import url(./fonts.css);
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #837a7a;
+	text-align: center;
+}
+
+
+.ns-bike__body {
+	margin-top: 150px;
+	margin-left: 750px;
+	position: relative;
+}
+
+.ns-bike__wheel-front{
+	position: relative;
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+}
+.ns-bike__tire{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: #000;
+}
+.ns-bike__rim-front{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	background: #aba9a9;
+}
+.air{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 140px;
+	height: 140px;
+	background: #ffffff;
+	border-radius: 50%;
+}
+.ns-bike__bushing-front{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 35px;
+	height: 35px;
+	background: #000;
+	border-radius: 50%;
+
+}
+.ns-bike__sprinkles{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 3px;
+	height: 80px;
+	background: radial-gradient(#000 2px, transparent 2px) repeat;
+}
+.ns-bike__sprinkles:nth-child(1) {
+	transform: rotate(0deg) translate(20px, 10px);
+}
+.ns-bike__sprinkles:nth-child(2) {
+	transform: rotate(20deg) translate(10px, 5px);
+}
+.ns-bike__sprinkles:nth-child(3) {
+	transform: rotate(40deg) translate(0px, 3px);
+}
+.ns-bike__sprinkles:nth-child(4) {
+	transform: rotate(70deg) translate(-10px, 5px);
+}
+.ns-bike__sprinkles:nth-child(5) {
+	transform: rotate(90deg) translate(-20px, 12px);
+}
+.ns-bike__sprinkles:nth-child(6) {
+	transform: rotate(110deg) translate(-30px, 20px);
+}
+.ns-bike__sprinkles:nth-child(7) {
+	transform: rotate(146deg) translate(-23px, 37px);
+}
+.ns-bike__sprinkles:nth-child(8) {
+	transform: rotate(160deg) translate(-30px, 42px);
+}
+.ns-bike__sprinkles:nth-child(9) {
+	transform: rotate(190deg) translate(-15px, 53px);
+}
+.ns-bike__sprinkles:nth-child(10) {
+	transform: rotate(230deg) translate(10px, 57px);
+}
+.ns-bike__sprinkles:nth-child(11) {
+	transform: rotate(250deg) translate(10px, 55px);
+}
+.ns-bike__sprinkles:nth-child(12) {
+	transform: rotate(300deg) translate(20px, 36px);
+}
+.ns-bike__sprinkles:nth-child(13) {
+	transform: rotate(330deg) translate(23px, 22px);
+}
+.ns-bike__sprinkles:nth-child(14) {
+	transform: rotate(280deg) translate(20px,50px);
+}
+
+.ns-bike__fork{
+	position: absolute;
+	top: 0px;
+	left: 90px;
+	width: 20px;
+	height: 200px;
+	background: #000;
+	transform: rotate(-20deg) translate(-10px, -100px);
+	border-radius: 50px;
+}
+.ns-bike__carried-out{
+	position: absolute;
+	top: 0px;
+	left: 90px;
+	width: 25px;
+	height: 20px;
+	background: #000000;
+	transform: translate(-77px, -85px);
+}
+.ns-bike__steering-wheel {
+	position: absolute;
+	top: 0px;
+	left: 90px;
+	width: 60px;
+	height: 10px;
+	background: #a6a6a6;
+	transform: rotate(-20deg) translate(-20px, -110px);
+	z-index: 6;
+}
+.ns-bike__steering-wheel::before {
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 25px;
+	width: 60px;
+	height: 10px;
+	background: #a6a6a6;
+	transform: rotate(35deg) translate(-75px, 55px);
+}
+.ns-bike__pipe-down {
+	position: absolute;
+		top: 0px;
+		left: 90px;
+		width: 220px;
+		height: 15px;
+		background: #000000;
+		transform: rotate(-25deg) translate(-240px, -90px);
+		border-radius: 50px;
+}
+
+.ns-bike__pipe-top {
+	position: absolute;
+		top: 0px;
+		left: 90px;
+		width: 220px;
+		height: 15px;
+		background: #000000;
+		transform: rotate(-25deg) translate(-240px, -120px);
+		border-radius: 50px;
+}
+
+.ns-bike__underseat {
+	position: absolute;
+	top: 0px;
+	left: 90px;
+	width: 20px;
+	height: 120px;
+	background: #000000;
+	transform: rotate(-25deg) translate(-240px, -120px);
+	border-radius: 50px;
+}
+
+.ns-bike__saddle {
+	position: absolute;
+	top: 0px;
+	left: 90px;
+	width: 80px;
+	height: 40px;
+	background: #000000;
+	transform: rotate(-25deg) translate(-280px, -150px);
+	border-radius: 0px 50px 0px 0px;
+}
+
+.ns-bike__pipe-rear-down {
+	position: absolute;
+		top: 0px;
+		left: 90px;
+		width: 120px;
+		height: 15px;
+		background: #000000;
+		transform: rotate(-20deg) translate(-380px, -40px);
+		border-radius: 50px;
+		z-index: 5;
+}
+
+.ns-bike__pipe-rear-top {
+	position: absolute;
+		top: 0px;
+		left: 90px;
+		width: 120px;
+		height: 15px;
+		background: #000000;
+		transform: rotate(-20deg) translate(-380px, -70px);
+		border-radius: 50px;
+		z-index: 5;
+}
+
+
+
+.ns-bike__carried {
+		position: absolute;
+		top: 0px;
+		left: 90px;
+		width: 60px;
+		height: 60px;
+		background: #000000;
+		transform: rotate(0deg) translate(-270px, 70px);
+		border-radius: 50% ;
+}
+
+.ns-bike__connecting-rod {
+	position: absolute;
+		top: 0px;
+		left: 90px;
+		width: 10px;
+		height: 60px;
+		background: #000000;
+		transform: rotate(0deg) translate(-245px, 110px);
+		
+}
+
+.ns-bike__pedal {
+		position: absolute;
+			top: 0px;
+			left: 90px;
+			width: 30px;
+			height: 10px;
+			background: #ffffff;
+			transform: rotate(0deg) translate(-250px, 160px);
+}
+.ns-bike__wheel-rear {
+	position: relative;
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+	transform: translate(-360px, -166px);
+}
+
+.ns-bike__tire {
+	position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		background: #000;
+}
+
+.ns-bike__rim-rear {
+	position: absolute;
+		top: 10px;
+		left: 10px;
+		width: 160px;
+		height: 160px;
+		border-radius: 50%;
+		background: #aba9a9;
+}
+
+.air {
+	position: absolute;
+		top: 10px;
+		left: 10px;
+		width: 140px;
+		height: 140px;
+		background: #ffffff;
+		border-radius: 50%;
+}
+
+.ns-bike__bushing-rear {
+		position: absolute;
+			top: 50px;
+			left: 50px;
+			width: 35px;
+			height: 35px;
+			background: #000;
+			border-radius: 50%;
+}
+
+.sprinkles-rear {
+
+}
+
