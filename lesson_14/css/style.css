@@ -1,0 +1,158 @@
+@import url(./fonts.css);
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	/* color: #ffffff; */
+	/* background-color: #837a7a; */
+}
+._container {
+	max-width: 1330px;
+	margin: 0 auto;
+	padding: 15px;
+}
+/* ?==================================================================================================================================================================================================================================================================================================================================================================================================== */
+
+/* ?======page============================================================================================================================================================================================================================================================================================================================================================================================== */
+.form {
+	padding-top: 50px;
+}
+.label_1{
+	display: block;
+	text-align: left;
+}
+.menu_text {
+	margin: 0 auto;
+	width: 300px;
+}
+.menu_text:not(:last-child){
+	margin-bottom: 36px;
+}
+.menu_item{
+	display: block;
+	margin-top: 22px;
+	border-radius: 10px;
+	border: 1px  solid #8d8d8d;
+	padding: 15px;
+	font-weight: 500;
+	width: 100%;
+}
+.menu_item_1{
+	padding:26px 0px 30px 30px;
+}
+.button{
+	padding: 13px 88px;
+	background-color: #B88E2F;
+	color: #fff;
+	border-radius: 5px;
+	display: block;
+}
+.form__color {
+	margin-top: 80px;
+}
+
+.body {}
+
+.size {
+	width: 300px;
+	margin: 0 auto;
+}
+.size__content{
+	display: flex;
+}
+.size__titel{
+	text-align: left;
+	color: #9f9f9f;
+	margin-bottom: 12px;
+}
+.color__titel{
+	text-align: left;
+		color: #9f9f9f;
+		margin-bottom: 12px;
+}
+.color {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+.color__content{
+	display: flex;
+}
+.purpel {
+	
+}
+
+.black {
+	width: 30px;
+		height: 30px;
+		border-radius: 50px 50px 50px 50px;
+		background-color: #000;
+		margin-right: 16px;
+		margin-left: 16px;
+}
+
+.golden {
+	width: 30px;
+		height: 30px;
+		border-radius: 50px 50px 50px 50px;
+		background-color: #b88e2f;
+}
+
+.button-size {
+	padding: 5px 12px;
+	background-color: #F9F1E7;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 5px;
+}
+.radio-input {
+	display: none;
+}
+.size__content:has(.radio-input:checked) .btn {
+	background-color: #95a5a6;
+}
+.size__content:has(#btn1:checked) .l,
+.size__content:has(#btn2:checked) .xl,
+.size__content:has(#btn3:checked) .xs {
+	background-color: #B88E2F;
+	transition: all 0.3s ease 0s;
+}
+.hidden-radio {
+	display: none;
+}
+.button-label__purpel {
+	padding: 5px 15px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	transition: background-color 0.3s;
+	border-radius: 50%;
+	background-color: #816dfa;
+}
+.button-label__black {
+	padding: 5px 15px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	transition: background-color 0.3s;
+	border-radius: 50%;
+			background-color: #000;
+}
+.button-label__golden {
+	padding: 5px 15px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #b88e2f;
+}
+.hidden-radio {
+	display: none;
+}
+.color__content:has(#toggle-btn:checked) .purpel,
+.color__content:has(#toggle-btn_2:checked) .black,
+.color__content:has(#toggle-btn_3:checked) .golden {
+	border: 3px solid #6fff00;
+	transition: all 0.3s ease 0s;
+}
