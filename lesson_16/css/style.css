@@ -252,7 +252,8 @@ body {
 	padding: 24px 8px 16px 8px; 
 }
 
-.item-products__link-title {}
+.item-products__link-title {
+}
 .item-products__link-title:hover{
 	text-decoration: underline;
 }
@@ -262,6 +263,7 @@ body {
 	text-wrap: balance;
 	line-height: 1.33;
 	margin-bottom: 24px;
+	color: #000;
 }
 
 .item-products__options {
