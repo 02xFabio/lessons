@@ -1,0 +1,39 @@
+.food__header {
+	margin-bottom: 96px;
+}
+.header-food_center {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.header-food {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.header-food__title {
+	font-weight: 600;
+	font-size: 48px;
+}
+
+.header-food__subtitle {
+	opacity: 0.6;
+	line-height: 175%; 
+	max-width: 600px;
+}
+.title{
+	font-size: 36px;
+		font-weight: 600;
+		line-height: 144.444444%;
+		margin-bottom: 50px;
+		text-align: center;
+}
+
+/* .iм'я page__header {}
+
+.header-iм'я page {}
+
+.header-iм'я page__title {}
+
+.header-iм'я page__subtitle {} */
